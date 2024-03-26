@@ -1,0 +1,14 @@
+This function is responsible for the core logic of finding the target's index or determining where it should be inserted. It accepts two parameters: nums (an array of numbers) and target (the number to find).
+
+First, it sorts the array in ascending order. This is crucial because binary search, the algorithm used here, requires a sorted array to function correctly.
+
+This function handles user interaction by using prompt for input and alert for output.
+
+It prompts the user to enter a list of numbers (separated by commas) and a target number. It uses the split method to convert the string input into an array of strings, then maps over this array with parseInt to convert each element to an integer.
+With the input properly formatted, it calls findTargetIndex, passing the array of numbers and the target number.
+Finally, it displays the result using alert, indicating the target's index in the sorted array or the index where it should be inserted.
+
+The user is prompted to enter their data.
+This data is processed to find the target's index or insertion point.
+The result is displayed back to the user.
+This code is a simple demonstration of binary search and user interaction within a web browser environment. 

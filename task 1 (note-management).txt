@@ -1,0 +1,10 @@
+Run project. You will redirect to sign up page directly after running the project using php artisan server. Migrate the project. I also added my exported sql file. You can use it as well or you can sign up by yourself after migration.
+Sign up will redirect you to log in page. Add note/notes from sidebar add note menu. You can add notes after login and also view list as per user authentication. No user can view other user's note list. 
+
+tazim@gmail.com
+pw tazim1234
+
+shovon@gmail.com
+pw shovon123
+
+Search functionality is also available based on title and content.
